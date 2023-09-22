@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+    int  soma;
+    float max;
+    
+    printf(" Valor: ");
+    scanf ("%f", &max);
+
+    soma = ( pow(max,2) + max )/2;
+    
+    printf(" Resultado: %d", soma);
+
+    return 0;
+}
